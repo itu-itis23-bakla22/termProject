@@ -1,0 +1,58 @@
+h1{
+font-size: 3rem;
+text-align: center;
+background-color: bisque;
+font-family: Tahoma;
+
+}
+p{
+font-size: 1.5rem;
+background-color: bisque;
+
+
+}
+h3{
+text-align: center;
+font-size:2.0rem;
+font-family: Tahoma;
+}
+.container{
+ display:flex;
+ flex-direction: row;
+ gap: 0.5rem;
+align-items: center;
+background-color:bisque;
+
+}
+#Me{
+width: fit-content;
+height: fit-content;
+
+}
+#img{   
+width: 300px;
+height: 450px;
+}
+ol{
+row-gap: 0.5rem;
+font-size: 1.5rem;
+}
+a{
+    
+    margin-left: 350px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding:10px 30px;
+    transition: 0.5s;
+    }
+a:hover{
+background:var(--clr);   
+letter-spacing: 0.25em;
+box-shadow:0 0 35 px var(--clr);
+}    
